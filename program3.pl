@@ -1,0 +1,9 @@
+$file1='FILE1.txt';
+open(file1,$file1);
+@keratin=<file1>;
+$file2='FILE2.txt';
+open(file2,$file2);
+@actin=<file2>;
+print"@keratin\n";
+print"@actin\n";
+exit;
